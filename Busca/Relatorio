@@ -1,0 +1,21 @@
+Justificativa da Abordagem Sugerida
+
+Gráfico comparativo entre busca sequencial e binária:
+https://docs.google.com/spreadsheets/d/1M9pHLfJQD2BW-3EsKK8W0dJZQjbAyFxi0El6mR_dvYY/edit?usp=sharing
+
+Após implementar e avaliar os tempos de execução das buscas sequencial e binária, notou-se que cada método possui suas vantagens e desvantagens, variando conforme o tamanho do catálogo e a frequência de atualizações.
+
+Busca Sequencial
+
+Complexidade: Apresenta complexidade de O(n), pois percorre a lista do início ao fim até localizar o produto ou alcançar o último item.
+Desempenho: Para listas menores, a busca sequencial é viável, mas em listas maiores, o tempo de busca aumenta linearmente, reduzindo a eficiência.
+Busca Binária
+
+Complexidade: Com uma complexidade de O(log n), a busca binária divide a lista ordenada ao meio em cada iteração, acelerando consideravelmente o processo de localização do item.
+Desempenho: Para catálogos grandes, a busca binária é muito mais eficiente, mas requer que a lista esteja ordenada, o que pode demandar processamento extra a cada inserção ou remoção de produtos.
+Recomendação Final
+Comparando as duas abordagens, a busca binária é ideal para e-commerces com catálogos extensos, oferecendo melhor desempenho em consultas frequentes. Caso a lista de produtos seja estável ou tenha poucas alterações, a busca binária será bastante vantajosa.
+
+Para catálogos que exigem atualizações frequentes com adições e remoções, uma alternativa eficiente seria o uso de estruturas como tabelas hash, que oferecem alta performance tanto em buscas quanto nas operações de inserção e remoção.
+
+Em conclusão, recomenda-se utilizar a busca binária como abordagem principal, garantindo um sistema de busca ágil e capaz de suportar o crescimento do catálogo de produtos.
