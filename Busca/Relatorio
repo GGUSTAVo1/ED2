@@ -1,7 +1,7 @@
-Justificativa da Abordagem Sugerida
+### Justificativa da Abordagem Sugerida
 
 Gráfico comparativo entre busca sequencial e binária:
-https://docs.google.com/spreadsheets/d/1M9pHLfJQD2BW-3EsKK8W0dJZQjbAyFxi0El6mR_dvYY/edit?usp=sharing
+[Tabela](https://docs.google.com/spreadsheets/d/1M9pHLfJQD2BW-3EsKK8W0dJZQjbAyFxi0El6mR_dvYY/edit?usp=sharing)
 
 Após implementar e avaliar os tempos de execução das buscas sequencial e binária, notou-se que cada método possui suas vantagens e desvantagens, variando conforme o tamanho do catálogo e a frequência de atualizações.
 
